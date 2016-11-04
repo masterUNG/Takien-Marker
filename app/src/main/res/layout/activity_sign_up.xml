@@ -176,17 +176,18 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/tel_thai"
                     android:id="@+id/textView9"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:layout_weight="1" />
 
                 <EditText
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText8"
-                    android:layout_weight="2"
+                    android:layout_weight="1"
                     android:inputType="number"
                     android:hint="0812345678" />
             </LinearLayout>
@@ -197,17 +198,18 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/email_thai"
                     android:id="@+id/textView10"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:layout_weight="1" />
 
                 <EditText
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText9"
-                    android:layout_weight="2" />
+                    android:layout_weight="1" />
 
             </LinearLayout>
 
