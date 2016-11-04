@@ -96,9 +96,14 @@ public class SignUpActivity extends AppCompatActivity {
             myAlert.myDialog(this, "รหัสผ่านไม่ตรงกัน",
                     "กรุณากรอกรหัสผ่านให้ตรงกันครับ");
 
-        } else {
+        } else if (!(prefix1RadioButton.isChecked() ||
+                prefix2RadioButton.isChecked() ||
+                prefix3RadioButton.isChecked())) {
 
-
+            //Non Choose Prefix
+            MyAlert myAlert = new MyAlert();
+            myAlert.myDialog(this, "ยังไม่เลือกคำนำหน้า",
+                    "กรุณาเลือกคำนำหน้านามด้วย คะ");
 
         }
 
