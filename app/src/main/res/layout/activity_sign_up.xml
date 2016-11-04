@@ -216,17 +216,17 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:text="@string/district"
+                    android:text="@string/province"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView21"
+                    android:id="@+id/textView23"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2" />
 
                 <Spinner
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/spinner"
+                    android:id="@+id/spinner2"
                     android:layout_weight="1" />
             </LinearLayout>
 
@@ -256,17 +256,17 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:text="@string/province"
+                    android:text="@string/district"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView23"
+                    android:id="@+id/textView21"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2" />
 
                 <Spinner
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:id="@+id/spinner2"
+                    android:id="@+id/spinner"
                     android:layout_weight="1" />
             </LinearLayout>
 
