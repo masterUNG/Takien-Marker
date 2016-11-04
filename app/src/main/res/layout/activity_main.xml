@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="suwuttipoj.nantapak.takienfloatingmarket.MainActivity"
+    android:background="@drawable/backgroundmain03">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="120dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_height="226dp"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                android:id="@+id/imageView2"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="350dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/religious02"
+                    android:onClick="clickReligious" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_weight="1"
+                    android:background="@drawable/information01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="177dp"
+                    android:onClick="clickInformation" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mapgotowat01"
+                    android:id="@+id/imageView"
+                    android:layout_weight="1"
+                    android:onClick="clickMaps" />
+
+                <ImageView
+                    android:src="@drawable/login01"
+                    android:id="@+id/imageView3"
+                    android:onClick="clickMember"
+                    android:layout_height="wrap_content"
+                    android:layout_width="175dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/marketfloting01"
+                    android:id="@+id/imageView9"
+                    android:onClick="clickMarketfloting"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/wattakien01"
+                    android:id="@+id/imageView8"
+                    android:onClick="clickWattakien"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

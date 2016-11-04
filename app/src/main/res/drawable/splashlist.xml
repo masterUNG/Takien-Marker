@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashAnimation"
+    android:oneshot="false">
+    <item android:drawable="@drawable/home11" android:duration="1000" />
+    <item android:drawable="@drawable/home12" android:duration="700" />
+    <item android:drawable="@drawable/home13" android:duration="700" />
+
+</animation-list>
