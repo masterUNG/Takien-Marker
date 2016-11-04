@@ -12,7 +12,6 @@
     <string name="admin_thai">แอดมิน</string>
 
 
-
     <string name="user_thai">ชื่อผู้ใช้งาน :</string>
     <string name="password_thai">รหัสผ่าน :</string>
     <string name="repassword_thai">ยืนยันรหัสผ่าน :</string>
@@ -40,5 +39,14 @@
         completions."
     </string>
     <string name="title_activity_maps">Map</string>
+
+
+    <string name="prefix1">นางสาว</string>
+    <string name="prefix2">นาง</string>
+    <string name="prefix3">นาย</string>
+
+    <string name="district">ตำบล</string>
+    <string name="amphur">อำเภอ</string>
+    <string name="province">จังหวัด</string>
 
 </resources>
